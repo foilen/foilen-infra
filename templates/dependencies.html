@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>Dependencies</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 100%;
+      height: 1000px;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = new vis.DataSet([
+    %NODES%
+  ])
+
+  // create an array with edges
+  var edges = new vis.DataSet([
+    %EDGES%
+  ]);
+
+  // create a network
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    nodes: {borderWidth: 2},
+    physics: {
+      enabled: false,
+      barnesHut: {
+        springLength: 200,
+        avoidOverlap: 100.0,
+      },
+    },
+    layout: {
+        improvedLayout: true,
+        hierarchical: {
+            direction: 'UD',
+            nodeSpacing: 200,
+        }
+    },
+    interaction: {hover: true}
+  }
+  var network = new vis.Network(container, data, options);
+</script>
+
+
+</body>
+</html>

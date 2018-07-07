@@ -1,0 +1,11 @@
+foilen-infra-bootstrap
+foilen-infra-resource-apachephp
+foilen-infra-resource-email
+foilen-infra-resource-infraconfig
+foilen-infra-system-core-system-junits
+foilen-infra-system-core-system-fake
+foilen-infra-system-app-test-docker
+foilen-infra-ui
+foilen-infra-resource-letsencrypt
+foilen-infra-resource-website
+foilen-infra-resource-composableapplication
