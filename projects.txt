@@ -1,5 +1,6 @@
 foilen-infra-api
 foilen-infra-bootstrap
+foilen-infra-cli
 foilen-infra-docker-manager
 foilen-infra-plugin
 foilen-infra-resource-apachephp
