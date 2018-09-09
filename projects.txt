@@ -5,6 +5,7 @@ foilen-infra-docker-manager
 foilen-infra-plugin
 foilen-infra-resource-apachephp
 foilen-infra-resource-application
+foilen-infra-resource-backup
 foilen-infra-resource-bind9
 foilen-infra-resource-composableapplication
 foilen-infra-resource-dns
