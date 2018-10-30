@@ -1,3 +1,4 @@
 foilen-infra-bootstrap
+foilen-infra-cli
 foilen-infra-docker-manager
 foilen-infra-ui

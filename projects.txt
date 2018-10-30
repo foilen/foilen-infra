@@ -9,7 +9,6 @@ foilen-infra-resource-backup
 foilen-infra-resource-bind9
 foilen-infra-resource-composableapplication
 foilen-infra-resource-dns
-foilen-infra-resource-domain
 foilen-infra-resource-email
 foilen-infra-resource-example
 foilen-infra-resource-example-failing
