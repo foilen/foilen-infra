@@ -16,6 +16,7 @@ foilen-infra-resource-infraconfig
 foilen-infra-resource-letsencrypt
 foilen-infra-resource-machine
 foilen-infra-resource-mariadb
+foilen-infra-resource-postgresql
 foilen-infra-resource-testing-controller
 foilen-infra-resource-unixuser
 foilen-infra-resource-urlredirection
