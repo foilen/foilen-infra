@@ -1,4 +1,3 @@
 foilen-infra-bootstrap
-foilen-infra-plugins-core
 foilen-infra-cli
 foilen-infra-ui
