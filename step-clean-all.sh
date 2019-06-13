@@ -16,6 +16,7 @@ for project in $(cat projects.txt); do
       rm -vrf bin
     fi
     find -type f | grep '\.class$' | xargs --no-run-if-empty rm -v
+    find -type f | grep '\.attach' | xargs --no-run-if-empty rm -v
     cd ..
     echo
   fi
