@@ -11,8 +11,7 @@ for project in $(cat projects.txt); do
   if [ -d "$project" ]; then
     echo "---[$project]---"
     cd $project
-    git push
-    git push --tags
+    git gc
     cd ..
     echo
   fi
