@@ -1,5 +1,6 @@
-foilen-infra-system-core-system-fake
+foilen-infra-system-core-system-memory
 foilen-infra-bootstrap
 foilen-infra-plugins-core
 foilen-infra-cli
 foilen-infra-ui
+foilen-infra-system-core-system-mongodb

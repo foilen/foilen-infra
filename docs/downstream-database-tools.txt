@@ -1,0 +1,4 @@
+foilen-infra-plugins-core
+foilen-infra-bootstrap
+foilen-infra-cli
+foilen-infra-ui

@@ -8,9 +8,10 @@ foilen-infra-plugin-core
 foilen-infra-resource-example
 foilen-infra-resource-testing-controller
 foilen-infra-system-core-system-junits
-foilen-infra-system-core-system-fake
-foilen-infra-plugins-core
 foilen-infra-resource-example-failing
 foilen-infra-system-core-execute
 foilen-infra-system-app-test-docker
 foilen-infra-system-core-system-common
+foilen-infra-system-core-system-memory
+foilen-infra-plugins-core
+foilen-infra-system-core-system-mongodb

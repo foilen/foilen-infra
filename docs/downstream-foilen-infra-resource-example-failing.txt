@@ -1,6 +1,1 @@
 foilen-infra-system-core-system-junits
-foilen-infra-system-core-system-fake
-foilen-infra-bootstrap
-foilen-infra-plugins-core
-foilen-infra-cli
-foilen-infra-ui
