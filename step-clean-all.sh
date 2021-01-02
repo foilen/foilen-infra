@@ -21,3 +21,9 @@ for project in $(cat projects.txt); do
     echo
   fi
 done
+
+# Clean the repo
+for project in $(ls ~/.m2/repository/com/foilen | grep foilen-infra); do
+  echo "---[ Maven repo $project]---"
+  rm -rfv ~/.m2/repository/com/foilen/$project
+done
